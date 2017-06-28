@@ -1,6 +1,15 @@
 # Graphs-Djikstras-Algorithm
 Implementation of a graph and adjacency matrix used to compute the shortest path between a list of restaurants (using Djikstra's Algorithm). The final path taken is the one where the most possible nodes are visited, without visiting any one node twice.
 
+1. XML file is read in, which contains a list of restaurants.
+2. XML file is parsed to put each restaurant's data into a vector of strings.
+3. String vector is parsed into a vector of Restaurant objects.
+4. Adjacency list is built as an unordered_map, based on project specifications.
+5. The distance between each restaurant is calculated with the Haversine formula, using the restaurant's longitude and latitude.
+6. Distance is inserted into the adjacency matrix.
+7. Using Djikstra's Algorithm, the shortest path for all restaurants is calculated and stored in a vector.
+8. For this project, the max number of total restaurants visited is selected as the result. The data for each restaurant in this path is printed to the console (in colors).
+
 Sample output:
 
 ```Opening input file: Restaurants.XML
