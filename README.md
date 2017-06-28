@@ -1,5 +1,5 @@
 # Graphs-Djikstras-Algorithm
-Implementation of a graph and adjacency matrix used to compute the shortest path between a list of restaurants (using Djikstra's Algorithm).
+Implementation of a graph and adjacency matrix used to compute the shortest path between a list of restaurants (using Djikstra's Algorithm). The final path taken is the one where the most possible nodes are visited, without visiting any one node twice.
 
 Sample output:
 
