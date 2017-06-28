@@ -170,4 +170,5 @@ Restaurant 9:
 East Bernalillo, NM
 (505)867-9110
 35.31 -106.54
-Total distance traveled: 58.506```
+Total distance traveled: 58.506
+```
