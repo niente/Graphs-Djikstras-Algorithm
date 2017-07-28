@@ -10,6 +10,18 @@ Implementation of a graph and adjacency matrix used to compute the shortest path
 7. Using Djikstra's Algorithm, the shortest path for all restaurants is calculated and stored in a vector.
 8. For this project, the max number of total restaurants visited is selected as the result. The data for each restaurant in this path is printed to the console (in colors).
 
+Sample input:
+```
+<Restaurant>
+<Address>9358 Eagle Ranch Rd.NW</Address>
+<Latitude>35.18</Latitude>
+<Longitude>-106.66</Longitude>
+</Restaurant>
+```
+Haversine formula:
+![Haversine Formula image](https://github.com/niente/Graphs-Djikstras-Algorithm/blob/master/haversineformula.png)
+
+
 Sample output:
 
 ```Opening input file: Restaurants.XML
