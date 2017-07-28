@@ -18,7 +18,8 @@ Sample input:
 <Longitude>-106.66</Longitude>
 </Restaurant>
 ```
-Haversine formula:
+### Haversine formula:
+
 For any two points on a sphere, the haversine of the central angle between them is given by:
 
 ![Haversine Formula image](https://github.com/niente/Graphs-Djikstras-Algorithm/blob/master/haversineformula.png)
