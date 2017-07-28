@@ -19,8 +19,9 @@ Sample input:
 </Restaurant>
 ```
 Haversine formula:
-![Haversine Formula image](https://github.com/niente/Graphs-Djikstras-Algorithm/blob/master/haversineformula.png)
+For any two points on a sphere, the haversine of the central angle between them is given by:
 
+![Haversine Formula image](https://github.com/niente/Graphs-Djikstras-Algorithm/blob/master/haversineformula.png)
 
 Sample output:
 
